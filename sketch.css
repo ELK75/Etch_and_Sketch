@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.container {
+	padding: 0 30% 2% 30%;
+	font-size: 0;
+}
+
+.x_block {
+	outline: solid black 1px;
+	width: 6.25%;
+	height: 0;
+	padding-top: 6.25%;
+	display: inline-block;
+	background-color: white;
+}
+
+
+.clear {
+	text-align: center;
+	padding-bottom: 80px;
+	/*margin-bottom: 80px;*/
+}
+
+.clear_button {
+	margin: 0 auto;
+	margin-top: 10px;
+	border-radius: 8px;
+	height: 40px;
+	width: 100px;
+	padding: 10px;
+}
+
+.button_container {
+	overflow: none;
+}
+
+.rndContainer {
+	display: inline-block;
+	float: left;
+}
+
+.random {
+	height: 30px;
+	width: 80px;
+	border-radius: 8px;
+	position: absolute;
+	top: 20px;
+}
+
+.fadeContainer {
+	display: inline-block;
+	float: right;
+	position: relative;
+	right: 80px;
+	top: -130px;
+}
+
+.fade {
+	height: 30px;
+	width: 80px;
+	border-radius: 8px;
+	position: absolute;
+	top: 20px;
+}
